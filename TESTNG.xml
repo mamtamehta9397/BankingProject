@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Internet Banking Project">
+  <test name="Login Test">
+      <parameter name="username" value="mngr398759"/>
+      <parameter name="password" value="jAqUjAm"/>
+      <classes>
+     <!--  <class name="com.mystore.testcases.LoginPageTest"/>-->
+       <!-- <class name="com.mystore.testcases.DataProviderLoginTest"/>-->
+        <class name="com.mystore.testcases.AddNewCustomer"/>
+      </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->
